@@ -1,4 +1,8 @@
-body {
+/* I used one style sheet for all three pages.  I think this makes it simpler especially because
+they all share the same header and footer. */
+
+/* setting the font-family and zeroing the margins and padding for all elements */
+body { 
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 1em;
     margin: 0;
@@ -6,8 +10,8 @@ body {
     background-image: url("../images/white-waves.png");
 }
 
-
-h1 {
+/* This heading size gets a separate font according to specs */
+h1 { 
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -34,33 +38,34 @@ header {
     background-color: #ffffff;
     border-top: 1px solid #cccccc;
     border-bottom: 2px solid #cccccc;
-}
-
-#header {
     margin: 0 auto 0 auto;
     width: 960px;
     height: 76px;
 }
 
-ul {
+/* making a list with no bullets */
+ul { 
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
     list-style-type: none;
 }
 
-li {
+/* the only way I could get to work to push the links to the top right, but I'm sure there's a better way */
+li { 
     float: right;
 }
 
-li a {
-    display: block;
+/* this allows you to click the entirety of the a element */
+li a { 
+    display: block; 
     padding: 30px 10px;
     color: #777777;
     text-decoration: none;
 }
 
-li a:hover {
+/* change color when the mouse hovers over the link */
+li a:hover { 
     background-color: #cccccc;
 }
 
@@ -86,7 +91,8 @@ section {
     margin-bottom: 15px;
 }
 
-form, #about {
+/* coloring and spacing text in the p elements and in the form */
+form, #about { 
     line-height: 2;
     margin: 0 25px;
     padding-bottom: 20px;
@@ -99,14 +105,16 @@ input {
     border: 1px solid #cccccc;
 }
 
-textarea {
+/* making the text area bigger, and removing the resize thing in the corner */
+textarea { 
     width: 908px;
     height: 200px;
     resize: none;
     border: 1px solid #cccccc;
 }
 
-button {
+/* styling the form button to match the page */
+button { 
     border: none;
     color: #ffffff;
     margin-bottom: 10px;
@@ -116,7 +124,8 @@ button {
     font-size: 1.0em;
 }
 
-button:hover {
+/* changing color of the button on hover */
+button:hover { 
     background-color: #2e706d;
 }
 
@@ -131,7 +140,8 @@ button:hover {
     margin: 30px 25px;
 }
 
-.portfolioLink {
+/* placing the link button over the picture. */
+.portfolioLink { 
     position: absolute;
     width: 300px;
     background-color: #4aaaa5;
