@@ -11,7 +11,7 @@ body {
 }
 
 /* This heading size gets a separate font according to specs */
-h1 { 
+h1, h2 { 
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
@@ -140,6 +140,10 @@ button:hover {
     margin: 30px 25px;
 }
 
+img.portfolio {
+    width: 300px;
+    height: 200px;
+}
 /* placing the link button over the picture. */
 .portfolioLink { 
     position: absolute;
