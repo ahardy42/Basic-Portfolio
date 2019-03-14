@@ -36,7 +36,6 @@ h2 {
 header {
     width: 100%;
     background-color: #ffffff;
-    border-top: 1px solid #cccccc;
     border-bottom: 2px solid #cccccc;
     margin: 0 auto 0 auto;
     width: 960px;
@@ -102,7 +101,9 @@ form, #about {
 input {
     width: 908px;
     height: 20px;
+    padding: 0 5px;
     border: 1px solid #cccccc;
+    color: #777777;
 }
 
 /* making the text area bigger, and removing the resize thing in the corner */
